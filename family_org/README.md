@@ -10,15 +10,11 @@ workout tracker sheet, and a homeschool attendance log.
   shared "Elizabeth" calendar on 2026-09-08 (day, start, end, title, Google
   colour id, notes). Edit this when the schedule changes; it is the source of
   truth for re-entering events.
-- `build_workout_sheet.py`: builds `workout_log.xlsx` (Log, Exercises,
-  Settings, PRs, Weekly tabs) with the paper log transcribed in. Requires
-  `openpyxl`. Upload the result to Drive and open it with Google Sheets, then
-  File > Save as Google Sheets.
-- `build_homeschool_log.py`: builds `homeschool_log.xlsx` (Daily log,
-  Coverage, Reading log, Curriculum tabs). Same upload steps.
+- `build_sheets.py`: writes `workout_log.csv` and `homeschool_log.csv`, each
+  one tab with the log on the left and a formula summary panel on the right.
+  Uploading a CSV to Google Drive with conversion on produces a native Google
+  Sheet and evaluates the formulas (verified 2026-09-08). No dependencies.
 
 ```
-pip install openpyxl
-python family_org/build_workout_sheet.py workout_log.xlsx
-python family_org/build_homeschool_log.py homeschool_log.xlsx
+python family_org/build_sheets.py out_dir
 ```

@@ -103,16 +103,16 @@ Done:
 - Block schedule entered on the shared "Elizabeth" calendar as 11 recurring
   events (see `homeschool_blocks.csv`). Times other than Sacramentum 8:30 to
   12:30 and the Jiu Jitsu 10:20 leave time are placeholders.
-- "Workout Log (Elizabeth & Eric).xlsx" and "Homeschool Log 2026-27.xlsx"
-  uploaded to the Drive folder, with the paper workout log transcribed in.
-  Open each in Google Sheets and choose File > Save as Google Sheets to make
-  them native shared sheets (the API here cannot do that conversion).
+- "Workout Log (Elizabeth & Eric)" and "Homeschool Log 2026-27" are native
+  Google Sheets in the Drive folder "Family Organization 2026-27", built from
+  `build_sheets.py` CSVs, with the paper workout log transcribed in and the
+  formulas verified by export. The folder is shared with Elizabeth's Google
+  account as an editor.
 
 Still to do:
-1. Share both sheets and the calendar with Elizabeth's account.
-2. Add a Google Form to each sheet for phone entry (Tools > Create a new form).
-3. Fix the Family calendar time zone; add break weeks and term dates.
-4. Decide the curls unit (lb or reps) and confirm the plate notation.
+1. Optional Google Form on each sheet for phone entry (Tools > Create a new form).
+2. Fix the Family calendar time zone; add break weeks and term dates.
+3. Decide the curls unit (lb or reps) and confirm the plate notation.
 
 ## Open questions
 
