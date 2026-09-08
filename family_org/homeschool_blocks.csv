@@ -1,0 +1,12 @@
+day,start,end,title,color,notes
+MO,08:00,08:30,Breakfast,5,Before Sacramentum
+MO,08:30,12:30,Sacramentum,10,From the paper block schedule
+TU;WE;TH;FR,08:00,08:45,Breakfast: Bible reading,5,Placeholder time
+TU,09:00,12:00,Outdoor group / Library homeschool group,10,Placeholder time; add location
+TU,12:45,13:30,Math,9,After the group outing
+WE;TH;FR,09:00,10:00,Math or Reading,9,Decide on the day
+WE,10:20,12:00,Jiu Jitsu class (leave by 10:20),10,15 min reminder; set real end time
+TH,10:15,11:15,Read-aloud,3,
+FR,10:15,11:15,Art,3,
+TU;WE;TH;FR,12:00,12:45,Lunch,8,Marked free
+FR,18:00,18:15,Homeschool: plan next week,8,Before Eric's 18:15 close-out
