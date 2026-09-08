@@ -97,13 +97,22 @@ updates the calendar events. It makes each term's schedule change a one-file
 edit instead of re-entering events by hand. Worth doing only if the schedule
 changes more than once or twice a year.
 
-## Order of work
+## Status, 2026-09-08
 
-1. Next chat: you share the block schedule and workout data. Build the
-   Homeschool calendar events and the workout sheet plus form in that session.
-2. Then: attendance log sheet and form, Family calendar time zone fix, weekly
-   check event and checklist.
-3. Later, if wanted: the rebuild script.
+Done:
+- Block schedule entered on the shared "Elizabeth" calendar as 11 recurring
+  events (see `homeschool_blocks.csv`). Times other than Sacramentum 8:30 to
+  12:30 and the Jiu Jitsu 10:20 leave time are placeholders.
+- "Workout Log (Elizabeth & Eric).xlsx" and "Homeschool Log 2026-27.xlsx"
+  uploaded to the Drive folder, with the paper workout log transcribed in.
+  Open each in Google Sheets and choose File > Save as Google Sheets to make
+  them native shared sheets (the API here cannot do that conversion).
+
+Still to do:
+1. Share both sheets and the calendar with Elizabeth's account.
+2. Add a Google Form to each sheet for phone entry (Tools > Create a new form).
+3. Fix the Family calendar time zone; add break weeks and term dates.
+4. Decide the curls unit (lb or reps) and confirm the plate notation.
 
 ## Open questions
 
