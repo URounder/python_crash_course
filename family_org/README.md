@@ -18,3 +18,8 @@ workout tracker sheet, and a homeschool attendance log.
 ```
 python family_org/build_sheets.py out_dir
 ```
+- `apps_script/tidy_sheets.gs`: paste into Extensions > Apps Script on either
+  Google Sheet and run `tidyWorkoutLog` or `tidyHomeschoolLog`. Moves the
+  summary panel to its own tabs, adds dropdowns, headers, widths, banding,
+  and colours. The CSV upload path cannot carry formatting, so this is the
+  one manual step.
